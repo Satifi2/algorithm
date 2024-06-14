@@ -11,12 +11,10 @@ void print(int x){
 }
 
 int main(){
-    // int n;
-    // cin>>n;
-    // print(~n),print(-n);
-    long long H = 4096,V=32000,L=32,Ht=11008;
-    cout<<2 * V * H<<" "<<L * (4 * H * H) <<" "<<L * 3 * H * Ht<<endl;
-    cout<<(2 * V * H + H + L * (4 * H * H + 3 * H * Ht + 2 * H))<<endl;
+    int a(1);
+    cout<<a<<" ";
+    int a={2};
+    cout<<a<<" ";
 
     return 0;
 }
